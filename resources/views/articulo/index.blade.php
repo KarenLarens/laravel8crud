@@ -36,5 +36,6 @@
     @endforeach
   </tbody>
 </table>
+<h1>Hola esta es una edicion muy loka</h1>
 
 @endsection

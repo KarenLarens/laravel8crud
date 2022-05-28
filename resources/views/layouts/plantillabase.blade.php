@@ -8,11 +8,11 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-CuOF+2SnTUfTwSZjCXf01h7uYhfOBuxIhGKPbfEJ3+FqH/s6cIFN9bGr1HmAg4fQ" crossorigin="anonymous">
 
-    <title>CRUD con Laravel 8 y Bootstrap 5</title>
+    <title>CRUD hecho por la Ingeniera Karen Suárez</title>
   </head>
   <body>
     <div class="container">
-    <h1 class="bg-primary text-white text-center mb-3">CRUD con Laravel 8 y Bootstrap 5</h1>
+    <h1 class="bg-primary text-white text-center mb-3">CRUD hecho por la Ingeniera Karen Suárez</h1>
 
 
     <div class="container">
