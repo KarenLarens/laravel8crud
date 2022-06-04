@@ -24,6 +24,7 @@ Route::resource('empleados','App\Http\Controllers\EmpleadoController');
 Route::resource('usuarios','App\Http\Controllers\UsuarioController');
 Route::resource('ventas','App\Http\Controllers\VentaController');
 Route::resource('detalles','App\Http\Controllers\DetalleController');
+Route::resource('tickets','App\Http\Controllers\TicketController');
 Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
     return view('dashboard');
 })->name('dashboard');
