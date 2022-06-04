@@ -21,7 +21,9 @@ Route::resource('articulos','App\Http\Controllers\ArticuloController');
 
 Route::resource('Categoria','App\Http\Controllers\CategoriaController');
 Route::resource('empleados','App\Http\Controllers\EmpleadoController');
-
+Route::resource('usuarios','App\Http\Controllers\UsuarioController');
+Route::resource('ventas','App\Http\Controllers\VentaController');
+Route::resource('detalles','App\Http\Controllers\DetalleController');
 Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
     return view('dashboard');
 })->name('dashboard');
